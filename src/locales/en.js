@@ -12,10 +12,11 @@ export const en = {
   skillsData: [
     { name: "Python", level: 80 },
     { name: "HTML/CSS", level: 70 },
-    { name: "JavaScript", level: 70 },
-    { name: "ReactJS", level: 65 },
-    { name: "SQL", level: 50 },
+    { name: "MySQL", level: 50 },
+    { name: "JavaScript", level: 50 },
     { name: "PHP", level: 35 },
+    { name: "Git", level: 30 },
+    { name: "ReactJS", level: 30 },
     { name: "Node.js", level: 30 },
     { name: "Java (basics)", level: 10 },
   ],
@@ -26,11 +27,10 @@ export const en = {
     { name: "VS Code", level: 75 },
     { name: "Administration", level: 50 },
     { name: "Power BI", level: 40 },
-    { name: "Git", level: 30 },
+    { name: "Netlify", level: 25 },
     { name: "Make", level: 5 },
     { name: "n8n", level: 5 },
   ],
-
   languagesData: [
     { name: "Russian", level: 100 },
     { name: "English", level: 55 },
@@ -51,7 +51,7 @@ export const en = {
   aboutText: [
     {
       title: "About Me",
-      content: `I specialize in developing unique and optimized visualization solutions in Tableau, which have become a standard for the company. I have experience working with large datasets (SQL, Python) and ensuring the stability of analytical platforms.`,
+      content: `Full-stack data analyst with expert-level Tableau development for enterprise solutions, actively rewriting the web server from PHP to React and creating/monitoring Python scripts based on colleagues' requests.`,
     },
     {
       title: "Goal",
@@ -59,7 +59,7 @@ export const en = {
     },
     {
       title: "Term",
-      content: `OSS (Operation Support System) is a system for interacting with telecommunications operational equipment: switches, networks, PBX, and more.`,
+      content: `OSS (Operation Support System) is a system for interacting with telecommunications operational equipment: switches, networks, ATS, and more.`,
     },
     {
       title: "Term Example",
@@ -110,14 +110,14 @@ export const en = {
   projectsData: [
     {
       name: "GPT Bots",
-      period: "-",
+      period: "2025 - ...",
       description:
         "Currently learning to create bots, with several projects already based on GPT-4.",
       technologies: ["SendPulse", "Prompt", "GPT"],
     },
     {
       name: "Make & n8n",
-      period: "-",
+      period: "2025 - ...",
       description: "Currently learning to create bots.",
       technologies: ["make", "n8n", "telegram", "GPT"],
     },

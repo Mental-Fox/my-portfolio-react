@@ -12,10 +12,11 @@ export const ru = {
   skillsData: [
     { name: "Python", level: 80 },
     { name: "HTML/CSS", level: 70 },
-    { name: "JavaScript", level: 70 },
-    { name: "ReactJS", level: 65 },
-    { name: "SQL", level: 50 },
+    { name: "MySQL", level: 50 },
+    { name: "JavaScript", level: 50 },
     { name: "PHP", level: 35 },
+    { name: "Git", level: 30 },
+    { name: "ReactJS", level: 30 },
     { name: "Node.js", level: 30 },
     { name: "Java (basics)", level: 10 },
   ],
@@ -26,7 +27,7 @@ export const ru = {
     { name: "VS Code", level: 75 },
     { name: "Administration", level: 50 },
     { name: "Power BI", level: 40 },
-    { name: "Git", level: 30 },
+    { name: "Netlify", level: 25 },
     { name: "Make", level: 5 },
     { name: "n8n", level: 5 },
   ],
@@ -51,7 +52,7 @@ export const ru = {
   aboutText: [
     {
       title: "Обо мне",
-      content: `Специализируюсь на разработке уникальных и оптимизированных решений визуализации в Tableau, которые стали стандартом для компании. Имею опыт работы с большими объемами данных (SQL, Python) и поддержки стабильности аналитических платформ.`,
+      content: `Full-stack аналитик данных с экспертным уровнем в разработке Tableau для корпоративных решений, активно переписываю веб-сервер с PHP на React и создаю/мониторю Python-скрипты по задачам коллег.`,
     },
     {
       title: "Цель",
@@ -109,16 +110,16 @@ export const ru = {
 
   projectsData: [
     {
-      name: "GPT Боты",
-      period: "-",
+      name: "GPT Bots",
+      period: "2025 - ...",
       description:
-        "В настоящее время изучаю создание ботов, но уже есть несколько проектов на базе GPT-4.",
+        "Currently learning to create bots, with several projects already based on GPT-4.",
       technologies: ["SendPulse", "Prompt", "GPT"],
     },
     {
       name: "Make & n8n",
-      period: "-",
-      description: "В настоящее время изучаю создание ботов.",
+      period: "2025 - ...",
+      description: "Currently learning to create bots.",
       technologies: ["make", "n8n", "telegram", "GPT"],
     },
   ],

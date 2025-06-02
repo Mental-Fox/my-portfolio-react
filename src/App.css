@@ -5,6 +5,7 @@
   /* пилюли-цвет */
   --pills: #d4e2fd;
   --pills-border: #1e5bd5;
+  --pills-hover: #c2d6ff;
 
   /* прогресс-бар */
   --progress-skills: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
