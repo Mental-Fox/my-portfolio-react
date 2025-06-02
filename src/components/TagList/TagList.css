@@ -1,0 +1,17 @@
+@import "../../App.css";
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-list__item {
+  background: var(--pills);
+  color: var(--primary-color);
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid var(--pills-border);
+  white-space: nowrap;
+}

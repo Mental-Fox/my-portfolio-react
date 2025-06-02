@@ -1,0 +1,32 @@
+@import "../../App.css";
+
+.section {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section__header {
+  background: var(--block-gradient);
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section__icon {
+  font-size: 18px;
+}
+
+.section__title {
+  flex: 1;
+}
+
+.section__content {
+  padding: 20px;
+}

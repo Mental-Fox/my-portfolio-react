@@ -1,0 +1,33 @@
+:root {
+  /* блок-градиент */
+  --block-gradient: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+
+  /* пилюли-цвет */
+  --pills: #d4e2fd;
+  --pills-border: #1e5bd5;
+
+  /* прогресс-бар */
+  --progress-skills: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+
+  /* иконки сертификата-цвет */
+  --certificate-icon: #d4e2fd;
+  --certificate-border: #4b6cb7;
+
+  --text-color: #333;
+  --background-color: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+}
+
+.App {
+  min-height: 100vh;
+}

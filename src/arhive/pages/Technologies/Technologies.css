@@ -1,0 +1,112 @@
+/* ---------- общие стили для секции ---------- */
+.section.tech {
+  text-align: center;
+  margin-top: 55px;
+  padding: 0 24px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section.tech h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* сетка из 4 блоков (2x2) */
+.tech-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 60px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* ---------- блок-контейнер для каждой категории ---------- */
+.tech-block {
+  margin-bottom: 0;
+  margin-bottom: 90px; /* простор между секциями */
+}
+
+.tech-block h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #00ff88; /* акцентный бирюзовый */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* выделим тонкую декоративную полоску под字幕 */
+.tech-block h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  margin: 10px auto 0;
+  background: linear-gradient(90deg, #00ff88 0%, #00ffff 100%);
+  border-radius: 2px;
+}
+
+/* ---------- сетка карточек (если нужны иконки) ---------- */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+/* карточка-иконка */
+.tech-card {
+  background: #2a2a2a;
+  padding: 22px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.tech-card img {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 12px;
+}
+
+.tech-card p {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* ---------- light-theme override ---------- */
+.light .section.tech h1,
+.light .tech-block h2 {
+  color: #1a1a1a;
+}
+
+.light .tech-block h2::after {
+  background: linear-gradient(90deg, #22cc88 0%, #22d9ff 100%);
+}
+
+.light .tech-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  color: #222;
+}
+
+.light .tech-card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.light .tech-card p {
+  color: #222;
+}

@@ -1,0 +1,133 @@
+.sidebar {
+  width: 250px;
+  background: #2a2a2a;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background: #00ff88;
+  color: #000000;
+}
+
+.sidebar a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sidebar.collapsed {
+  width: 75px;
+}
+
+.sidebar.collapsed h2,
+.sidebar.collapsed .nav-link span {
+  display: none;
+}
+
+.sidebar h2 {
+  color: #00ff88;
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s;
+}
+.toggle-btn {
+  background: #00ff88;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.toggle-btn:hover {
+  background: #00cc66;
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  /* right: 20px; */
+  background: #00ff88;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* === Sidebar.css (light theme) === */
+.light .sidebar {
+  background: #343a40;
+  color: #fff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.light .sidebar a {
+  color: #fff;
+}
+
+.light .sidebar a:hover {
+  background: #e6f5ef;
+}
+
+.light .sidebar h2 {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.light .sidebar ul li a:hover,
+.light .sidebar ul li a.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.light .theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  /* right: 20px; */
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}

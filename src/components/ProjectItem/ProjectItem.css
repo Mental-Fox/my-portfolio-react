@@ -1,0 +1,32 @@
+@import "../../App.css";
+
+.project-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-item__name {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.project-item__period {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.project-item__description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}

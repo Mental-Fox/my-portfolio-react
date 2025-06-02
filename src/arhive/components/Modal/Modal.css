@@ -1,0 +1,69 @@
+.course-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.course-modal {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.course-modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.course-modal p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.course-modal a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.course-modal a:hover {
+  text-decoration: underline;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #888;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

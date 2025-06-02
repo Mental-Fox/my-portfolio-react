@@ -1,0 +1,31 @@
+.contact-info__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.contact-info__icon {
+  font-size: 25px;
+  width: 25px;
+  display: flex;
+  text-align: center;
+}
+
+.contact-info__icon svg {
+  color: var(--primary-color) !important;
+}
+
+.contact-info__text {
+  flex: 1;
+}
+
+.contact-info__link {
+  color: #333333;
+  text-decoration: none;
+}
+
+.contact-info__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+@import "../../App.css";
+
+.certificate-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+  background: var(--background-color);
+}
+
+.certificate-item__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.certificate-item__link:hover .certificate-item {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item__logo {
+  display: flex;
+  /* font-size: 24px; */
+  background: var(--certificate-icon);
+
+  border: 1px solid var(--certificate-border);
+  padding: 10px;
+  border-radius: 100%;
+}
+.certificate-item__logo svg {
+  color: #000 !important;
+  width: 22px;
+  height: 22px;
+}
+
+.certificate-item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-item__name {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.certificate-item__year {
+  font-size: 0.85em;
+  color: #666;
+}
