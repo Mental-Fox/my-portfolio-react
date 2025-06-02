@@ -2,7 +2,6 @@ export const en = {
   personalInfo: {
     name: "Nedelko Nikolay",
     title: "OSS Engineer-Developer",
-    avatar: "/src/assets/profile.jpg",
   },
 
   contactData: [

@@ -2,7 +2,6 @@ export const ru = {
   personalInfo: {
     name: "Nedelko Nikolay",
     title: "Engineer-Developer OSS",
-    avatar: "/src/assets/profile.jpg",
   },
 
   contactData: [
