@@ -55,7 +55,7 @@ export const en = {
     },
     {
       title: "Goal",
-      content: `To become a full-stack developer, contribute to open-source projects, and create products that enhance people's lives.`,
+      content: `To become a Full-stack developer, contribute to open-source projects, and create products that enhance people's lives.`,
     },
     {
       title: "Term",
@@ -109,17 +109,19 @@ export const en = {
 
   projectsData: [
     {
-      name: "GPT Bots",
+      name: "Integration of GPT bots into business processes",
       period: "2025 - ...",
       description:
         "Currently learning to create bots, with several projects already based on GPT-4.",
-      technologies: ["SendPulse", "Prompt", "GPT"],
+      technologies: ["SendPulse", "Prompt", "OpenAI: GPT-4"],
+      url: "https://sendpulse.kz/",
     },
     {
-      name: "Make & n8n",
+      name: "Creating Bots on Make & n8n Platforms",
       period: "2025 - ...",
       description: "Currently learning to create bots.",
-      technologies: ["make", "n8n", "telegram", "GPT"],
+      technologies: ["make", "n8n", "telegram", "OpenAI: GPT-4"],
+      url: "https://n8n.io/vs/make/",
     },
   ],
 
@@ -128,6 +130,7 @@ export const en = {
       degree: "Bachelor of Information Technology",
       university: "Turan University, Almaty",
       year: "2018 - 2021",
+      url: "https://www.turan-edu.kz/",
     },
   ],
 

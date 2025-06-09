@@ -56,7 +56,7 @@ export const ru = {
     },
     {
       title: "Цель",
-      content: `Стать full-stack разработчиком, внести вклад в open-source проекты и создавать продукты, которые улучшают жизнь людей.`,
+      content: `Стать Full-stack разработчиком, внести вклад в open-source проекты и создавать продукты, которые улучшают жизнь людей.`,
     },
     {
       title: "Термин",
@@ -110,17 +110,19 @@ export const ru = {
 
   projectsData: [
     {
-      name: "GPT Bots",
+      name: "Интеграция GPT Bots в бизнес-процессы",
       period: "2025 - ...",
       description:
-        "Currently learning to create bots, with several projects already based on GPT-4.",
-      technologies: ["SendPulse", "Prompt", "GPT"],
+        "В настоящее время учусь создавать ботов, уже есть несколько проектов на основе GPT-4.",
+      technologies: ["SendPulse", "Prompt", "OpenAI: GPT-4"],
+      url: "https://sendpulse.kz/",
     },
     {
-      name: "Make & n8n",
+      name: "Создание ботов на платформах Make & n8n",
       period: "2025 - ...",
-      description: "Currently learning to create bots.",
-      technologies: ["make", "n8n", "telegram", "GPT"],
+      description: "В настоящее время учусь создавать ботов.",
+      technologies: ["make", "n8n", "Prompt", "OpenAI: GPT-4"],
+      url: "https://n8n.io/vs/make/",
     },
   ],
 
@@ -129,6 +131,7 @@ export const ru = {
       degree: "Бакалавр информационных технологий",
       university: "Университет Туран, Алматы",
       year: "2018 - 2021",
+      url: "https://www.turan-edu.kz/",
     },
   ],
 
