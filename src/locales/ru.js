@@ -33,9 +33,9 @@ export const ru = {
   ],
 
   languagesData: [
-    { name: "Russian", level: 100 },
-    { name: "English", level: 55 },
-    { name: "Kazakh", level: 30 },
+    { name: "Русский", level: 100 },
+    { name: "Английский", level: 55 },
+    { name: "Казахский", level: 30 },
   ],
 
   interestsData: [
