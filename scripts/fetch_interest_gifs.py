@@ -14,7 +14,7 @@ destination = root / 'public' / 'interests'
 sources = {
     'machine-learning': 'https://tenor.com/view/person-of-interest-poi-the-machine-neuron-activation-neural-network-gif-23102996',
     'coding': 'https://tenor.com/view/code-coding-programming-gif-11500074',
-    'anime': 'https://tenor.com/view/spirited-away-train-gif-9443149',
+    'anime': 'https://tenor.com/view/berserk-guts-anime-gif-15388101',
     'workout': 'https://tenor.com/view/workout-gif-14118472',
     'tech': 'https://tenor.com/view/boston-dynamics-atlas-spot-ai-technology-gif-19889497',
     'music': 'https://tenor.com/view/cat-dance-cool-nodding-headphones-gif-16309365',
