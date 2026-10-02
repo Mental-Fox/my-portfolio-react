@@ -1,34 +1,11 @@
-:root {
-  /* блок-градиент */
-  --block-gradient: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-
-  /* пилюли-цвет */
-  --pills: #d4e2fd;
-  --pills-border: #1e5bd5;
-  --pills-hover: #c2d6ff;
-
-  /* прогресс-бар */
-  --progress-skills: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-
-  /* иконки сертификата-цвет */
-  --certificate-icon: #d4e2fd;
-  --certificate-border: #4b6cb7;
-
-  --text-color: #333;
-  --background-color: #fafafa;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Arial", sans-serif;
-  background-color: var(--background-color);
-}
-
-.App {
-  min-height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750&display=swap');
+:root { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #eeeaf6; background: #0e0e16; font-synthesis: none; color-scheme: dark; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { min-width: 320px; }
+button, input { font: inherit; }
+button, a { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; color: inherit; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #c2a4fb; outline-offset: 4px; }
+::selection { background: #74589e; color: white; }
+.App { min-height: 100vh; }

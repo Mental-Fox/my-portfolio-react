@@ -1,0 +1,34 @@
+.web-request { display: flex; align-items: flex-start; gap: 9px; padding: 12px; margin: 0 0 23px; border: 1px solid var(--border); border-radius: 6px; background: rgba(var(--accent-rgb), .03); color: var(--secondary); font-size: 10px; line-height: 1.7; }
+.web-request > svg { flex-shrink: 0; color: var(--accent); margin-top: 2px; }
+.web-typed-code, .web-preview-output { min-width: 0; }
+.web-typing-demo .web-studio-body { grid-template-columns: 1.25fr 1fr; gap: 18px; }
+.web-typed-code .code-window pre { min-height: 274px; font-size: 11px; }
+.web-typed-code .numbered-code { padding: 3px 0; min-height: 26px; gap: 8px; }
+.web-typed-code .typing-result { flex-wrap: wrap; gap: 8px; }
+.web-preview-bar button { margin-left: auto; display: grid; place-items: center; background: none; border: 0; color: var(--muted); padding: 3px; }
+.web-typing-demo .web-preview { animation: excel-open .5s ease-out; }
+.web-studio-body { display: grid; grid-template-columns: 1fr 1.35fr; align-items: center; gap: 22px; }
+.web-preview { min-width: 0; border: 1px solid rgba(var(--accent-rgb), .3); border-radius: 10px; overflow: hidden; background: var(--surface); box-shadow: 0 12px 28px #0002; }
+.web-preview-bar { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-bottom: 1px solid var(--border); background: var(--deep); }
+.web-preview-bar > span:nth-child(2) { font: 7px monospace; color: var(--muted); }
+.web-preview-bar > svg { margin-left: auto; color: var(--accent); width: 11px; height: 11px; }
+.web-preview-page { padding: 18px; }
+.web-preview-nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.web-preview-nav strong { color: var(--ink); font-size: 12px; letter-spacing: -.3px; }
+.web-preview-nav > span { font: 5px monospace; color: var(--muted); letter-spacing: .7px; }
+.web-preview-hero { position: relative; padding: 27px 0 24px; isolation: isolate; }
+.web-preview-hero > span:first-child { color: var(--accent); font: 6px monospace; letter-spacing: 1px; }
+.web-preview-hero h4 { position: relative; z-index: 1; max-width: 230px; color: var(--ink); font-size: clamp(19px, 1.7vw, 25px); line-height: 1.2; letter-spacing: -.7px; white-space: pre-line; margin-top: 12px; }
+.web-preview-hero p { color: var(--secondary); font-size: 8px; margin-top: 10px; }
+.web-preview-hero .web-preview-cta { display: inline-flex; align-items: center; gap: 14px; font-size: 7px; padding: 8px 10px; margin-top: 16px; border: 1px solid var(--border); background: rgba(var(--accent-rgb), .1); color: var(--accent); border-radius: 5px; }
+.web-preview-orbit { position: absolute; width: 86px; height: 86px; right: 0; top: 44px; border: 1px solid rgba(var(--accent-rgb), .18); border-radius: 50%; display: grid; place-items: center; z-index: -1; background: radial-gradient(circle, rgba(var(--accent-rgb), .1), transparent 70%); }
+.web-preview-orbit::before { content: ''; position: absolute; inset: 8px -9px; border: 1px dashed rgba(var(--accent-rgb), .25); border-radius: 50%; animation: web-orbit-turn 18s linear infinite; }
+.web-preview-orbit svg { color: var(--accent); font-size: 27px; opacity: .45; }
+.web-preview-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; }
+.web-preview-tiles > div { display: grid; gap: 13px; padding: 12px 8px; border: 1px solid var(--border); border-radius: 6px; background: rgba(var(--accent-rgb), .035); }
+.web-preview-tiles svg { color: var(--accent); font-size: 14px; }
+.web-preview-tiles span { color: var(--muted); font: 5px monospace; letter-spacing: .2px; }
+.web-preview-bottom { display: flex; justify-content: space-between; margin-top: 17px; padding-top: 12px; border-top: 1px solid var(--border); font: 5px monospace; letter-spacing: .6px; color: var(--muted); }
+@keyframes web-orbit-turn { to { transform: rotate(360deg); } }
+@media (max-width: 700px) { .web-typing-demo .web-studio-body { grid-template-columns: 1fr; gap: 22px; } .web-request { font-size: 10px; } .web-typed-code .code-window pre { font-size: 9px; } }
+@media (max-width: 700px) { .web-preview-hero h4 { font-size: 24px; } .web-preview-page { padding: 16px; } }
